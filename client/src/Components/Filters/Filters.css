@@ -1,0 +1,13 @@
+.Filters {
+margin-top:60px;
+
+}
+.Filters__inputs{
+    display:flex;
+    flex-wrap: wrap;
+}
+.Filters__input{
+    margin :0 10px;
+    display:flex;
+    flex-direction: column;
+}

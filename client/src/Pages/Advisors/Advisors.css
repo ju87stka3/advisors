@@ -1,0 +1,40 @@
+.Advisors_page{
+padding: 0 20px;
+display: flex;
+flex-direction: column;
+height: 100%;
+}
+.Advisors__list_blur{
+  opacity: 0.5;
+}
+.Advisors__wrapper {
+  display: flex;
+  flex-direction: column;
+
+  margin-bottom: 150px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+.Advisors__list {
+  width:100%;
+}
+.Advisors{
+  flex-grow: 1;
+  position: relative;
+  overflow: auto;
+    transition: all 0.5s ease-in-out;
+}
+.Advisors__loading{
+  position: fixed;
+  top:0;
+  bottom:0;
+  left:0;
+  right: 0;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
